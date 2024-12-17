@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+p {
+    width: 40%;
+    padding: 50px;
+    border: 20px solid #0088dd;
+    font-family: 'Times New Roman', Times, serif;
+}
+p.example {
+    margin: 10px auto 10px auto;
+    text-align: left;
+    font-size: 200%;
+
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
