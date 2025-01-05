@@ -1,0 +1,53 @@
+Header1 {
+    font-size:10ch;
+    position: top center;
+    color: black;
+    margin: 0 40 0 0;
+}
+
+.First_container {
+    border-style: dotted;
+    border-color: blue;
+    color: rgb(154, 165, 184);
+    background-color: rgb(153, 42, 175);
+
+}
+
+H1 {
+    font-size: large;
+    color: blue;
+    margin: 0 0 10px 0;
+}
+
+H3 {
+    font-size: medium;
+    color: brown;
+    margin: 0;
+
+}
+
+header4 {
+    font-size: small;
+    color: green;
+    font-weight: 400;
+    margin: 0;
+}
+
+.column-container {
+    display: flex; /* Ustawienie układu kolumnowego */
+    justify-content: space-between; /* Opcjonalne - rozkłada kolumny równomiernie */
+    align-items: flex-start; /* Wyrównanie górne kolumn */
+    gap: 10px; /* Odstęp między kolumnami */
+    border: solid 2px;
+    background-color: rgb(241, 224, 224);
+}
+.column1of3, .column2of3, .column3of3 {
+    background-color: rgb(202, 190, 239);
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 10px;
+    border-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
