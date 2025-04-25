@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pudełka elementów</title>
+    <style type="text/css">
+        body {
+            font-size: 80%;
+            font-family: "Courier New", Courier, monospace;
+            letter-spacing: 0.15em;
+            background-color: #efefef;
+        }
+        #page {
+            max-width: 940px;
+            min-width: 720px;
+            margin: 10px auto;
+            padding: 20px;
+            border: 4px double #000;
+            background-color: #ffffff;
+        }
+        #logo {
+            width: 150px;
+            margin: 10px auto 25px auto;
+        }
+        ul {
+            width: 580px;
+            padding: 10px;
+            margin: 0px auto;
+            border-top: 2px solid #000;
+            border-bottom: 1px solid #000;
+            text-align: center;
+        }
+        li {
+            display: inline;
+            margin: 0px 3px;
+        }
+        p {
+            text-align: center;
+            max-width: 100%;
+            width: 600px;
+            margin: 20px auto;
+            font-weight: normal;
+        }
+        /* Usunięcie <p1>, teraz obrazek będzie w zwykłym <p> */
+        p img {
+            max-width: 100%;
+            height: auto;
+        }
+        a {
+            color: #000000;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 6px 18px 5px 18px;
+        }
+        a:hover, a.on {
+            color: #cc3333;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="logo">
+            <img src="images/logo.gif" alt="Analogowi specjaliści" />
+        </div>
+        <ul id="navigation">
+            <li><a href="#" class="on">Początek</a></li>
+            <li><a href="#">Sprzedaż</a></li>
+            <li><a href="#">Naprawy</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <p>
+            <img src="images/image.gif" alt="Fender Rhodes, Hohner Clavinet oraz Wurlitzer EP200" />
+        </p>
+        <p>
+            Specjalizujemy się w sprzedaży oraz naprawach klasycznych instrumentów
+            klawiszowych, a w szczególności: Fender Rhodes, Wurlitzer EP200 oraz
+            Hohner Clavinet.
+        </p>
+    </div>
+</body>
+</html>
