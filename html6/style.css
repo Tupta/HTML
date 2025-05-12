@@ -17,20 +17,23 @@ body
 {
     width: 960px;
     margin: 20px;
+    text-align: center;
 }
 
 .square
 {
-    width:50%;
-    float:left;
+    width:500px;
+    float: left;
 }
 
 #logo
 {
-    float:left;
+    float: left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
     width: 600px ;
+    text-align: left;
+    
 }
 
 #zegar
@@ -38,7 +41,8 @@ body
     float:left;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 70px;
-    
+    text-align: left;
+  
 }
 
 .title1
@@ -48,4 +52,74 @@ body
     height: 142px;
     background-color: #3095d3;
     float: left;
+}
+
+.title2
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #666666;
+    float: left;
+}
+
+.title3
+{
+    margin: 10px;
+    width: 230px;
+    height: 142px;
+    background-color: #93c748;
+    float: left;
+}
+
+.title4
+{
+    margin: 10px;
+    width: 480px;
+    height: 142px;
+    background-color: #ee5a32;
+    
+}
+
+.title5
+{
+    margin: 10px;
+    width: 480px;
+    height: 304px;
+    background-color: #666666;
+    
+}
+
+.yt
+{
+   margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #fd0202;
+    float: left; 
+}
+.fb
+{
+   margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #fd0202;
+    float: left; 
+}
+.gplus
+{
+   margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #5a13bc;
+    float: left; 
+}
+
+.tw
+{
+   margin: 10px;
+    width: 105px;
+    height: 142px;
+    background-color: #4a19dc;
+    float: left; 
 }
