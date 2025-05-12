@@ -37,7 +37,7 @@ body
     padding:10px;
     margin-top: 20px;
     margin-bottom: 25px;
-    height: 170px;
+    height: 200px;
 
 }
 
@@ -91,6 +91,11 @@ body
     text-align: center;
     padding: 20px;
     font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+
 }
 
 .option
@@ -110,11 +115,15 @@ body
     cursor:pointer ;
 }
 
-.optionL:
+.optionL
 {
     font-size:18px;
     height: 25px;
     padding: 10px;
+    border-bottom: 2px dotted #444444
+    font-size:18px;
+    height:25px;
+    padding: 19 px;
     border-bottom: 2px dotted #444444
 
 }
@@ -128,3 +137,26 @@ body
 
 
 
+
+    background-color: #f36742;
+    cursor: pointer ;
+    color: white;
+}
+
+.bigtitle
+{
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+
+.dottedline
+{
+    height: 5px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px dotted #444444;
+
+
+}
