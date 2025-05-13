@@ -23,7 +23,37 @@
                 <div style="clear: both;"></div>
             </div>
         </div>
-        <div class="nav"></div>
+        <div class="nav">
+            <ol>
+                <li><a href="#">strona główna</a></li>
+                <li><a href="#">Klasyki NES</a>
+                    <ul><li><a href="#">Contra</a></li></ul>
+                    <ul><li><a href="#">Mario</a></li></ul>
+                    <ul><li><a href="#">Duck Tales</a></li></ul>
+                    <ul><li><a href="#">Legend of Zelda</a></li></ul>
+                </li>
+                <li><a href="#">Gry filmowe</a>
+                    <ul><li><a href="#">Home alone</a></li></ul>
+                    <ul><li><a href="#">Dick Tracy</a></li></ul>
+                    <ul><li><a href="#">The Simpsons</a></li></ul>
+                    <ul><li><a href="#">Top Gun</a></li></ul>
+                </li>
+                <li><a href="#">Bijatyki</a>
+                    <ul><li><a href="#">Mortal Combat</a></li></ul>
+                    <ul><li><a href="#">Nekketsu</a></li></ul>
+                    <ul><li><a href="#">Double Dragon</a></li></ul>
+                    <ul><li><a href="#">Turtles T </a></li></ul>
+                </li>
+                <li><a href="#">Gry sportowe</a>
+                    <ul><li><a href="#">GOOOal 3</a></li></ul>
+                    <ul><li><a href="#">Excitebike</a></li></ul>
+                    <ul><li><a href="#">Ike Ike Hockey</a></li></ul>
+                    <ul><li><a href="#">Tenis</a></li></ul>
+                </li>
+                <li><a href="#">O autorach</a></li>
+
+            </ol>
+        </div>
             
             <div class="content">
 
@@ -81,12 +111,40 @@
                     <div class="fb"><i class ="icon-facebook-rect"></i></div>
                     <div class="yt"><i class ="icon-youtube"></i></div>
                     <div class="tw"><i class ="icon-twitter-bird"></i></div>
-                    <div class="gplus"><i class ="googleplus-rect"></i></div>
+                    <div class="gplus"><i class ="icon-googleplus-rect"></i></div>
                     <div style="clear: both;"></div>
                 </div>
             </div>
         
+        <div class="footer">Retrogranie.com $copy; 2025; </div>
         
     </div>
+
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+
+    <script>
+        
+	$(document).ready(function() {
+        var NavY = $('.nav').offset().top;
+         
+        var stickyNav = function(){
+        var ScrollY = $(window).scrollTop();
+              
+        if (ScrollY > NavY) { 
+            $('.nav').addClass('sticky');
+        } else {
+            $('.nav').removeClass('sticky'); 
+        }
+        };
+         
+        stickyNav();
+         
+        $(window).scroll(function() {
+            stickyNav();
+        });
+        });
+        
+    </script>
+
 </body>
 </html>
